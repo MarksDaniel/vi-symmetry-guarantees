@@ -120,7 +120,7 @@ def plot_sphere_example(lam=1.0, kappa0=2.0, eta_good=1.0, eta_bad=2.0, N=1001, 
     add_axis_marker(axes[3], nu_bad, r"$\nu$", dot_color="red")
     axes[3].text(0.05, -0.12, r"$u$", fontsize=8.5, ha="center", va="top")
 
-    # plot circle of minimisers (possible vMF centres)
+    # plot circle of minimisers (possible vMF centres)
     phis = np.linspace(0.0, 2.0 * np.pi, 12, endpoint=False)
     pts = np.array([lambert_forward([s_star * np.cos(ph), s_star * np.sin(ph), -c_star]) for ph in phis]) # nu_bad is just the point at ph = 0 
     axes[3].plot(pts[:, 0], pts[:, 1], marker="o", linestyle="None", 
