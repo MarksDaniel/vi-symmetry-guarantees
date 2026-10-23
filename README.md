@@ -1,6 +1,6 @@
 # Symmetry Guarantees Statistic Recovery in Variational Inference
 
-This repository contains the official implementation of the numerical examples in the NeurIPS 2026 paper **[Symmetry Guarantees Statistic Recovery in Variational Inference](https://arxiv.org/abs/2604.18310)** by Daniel Marks, Dario Paccagnan, and Mark van der Wilk.
+This repository contains the official implementation of the examples in the NeurIPS 2026 paper **[Symmetry Guarantees Statistic Recovery in Variational Inference](https://arxiv.org/abs/2604.18310)** by Daniel Marks, Dario Paccagnan, and Mark van der Wilk.
 
 ## Reproducing the Figures
 
