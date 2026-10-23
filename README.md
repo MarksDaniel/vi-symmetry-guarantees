@@ -1,7 +1,30 @@
-# Symmetry Guarantees Statistic Recovery in VI
+# Symmetry Guarantees Statistic Recovery in Variational Inference
 
-**To reproduce the figures**:
+This repository contains the official implementation of the numerical examples in the NeurIPS 2026 paper **[Symmetry Guarantees Statistic Recovery in Variational Inference](https://arxiv.org/abs/2604.18310)** by Daniel Marks, Dario Paccagnan, and Mark van der Wilk.
 
-1. Create a virtual environment and install the necessary dependencies from the requirements.txt file.
-2. Execute 'even_elliptical_symmetry_vi.py' to reproduce Figure 1, and 'rotational_symmetry_vi.py' to reproduce Figure 2.
-3. The results will be automatically saved in a new '/outputs' directory. 
+## Reproducing the Figures
+
+To reproduce the environment, use Python 3.9 and install the pinned dependencies in `requirements.txt`.
+
+```bash
+git clone https://github.com/MarksDaniel/vi-symmetry-guarantees.git
+cd vi-symmetry-guarantees
+
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+To reproduce the figures, run the following commands from the repository directory with the virtual environment activated:
+
+```bash
+python even_elliptical_symmetry_vi.py
+python rotational_symmetry_vi.py
+```
+
+The scripts automatically create an `outputs/` directory and save the figures as PDFs. Each script can be run independently.
+
+| Figure | Example | Output |
+| --- | --- | --- |
+| Figure 1 | Gaussian VI under even and elliptical symmetry | `outputs/vi_even_elliptical_example.pdf` |
+| Figure 2 | Fixed-concentration von Mises–Fisher VI under rotational symmetry | `outputs/vi_sphere_example.pdf` |
