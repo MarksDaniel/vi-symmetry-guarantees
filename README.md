@@ -15,7 +15,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-To reproduce the figures, run the following commands from the repository directory with the virtual environment activated:
+To reproduce the figures, run the following commands with the virtual environment activated:
 
 ```bash
 python even_elliptical_symmetry_vi.py
