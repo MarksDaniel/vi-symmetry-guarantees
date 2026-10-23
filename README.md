@@ -26,5 +26,5 @@ The scripts create an `outputs/` directory and save the figures as PDFs. Each sc
 
 | Figure | Example | Output |
 | --- | --- | --- |
-| Figure 1 | Gaussian VI under even and elliptical symmetry | `outputs/vi_even_elliptical_example.pdf` |
-| Figure 2 | Fixed-concentration von Mises–Fisher VI under rotational symmetry | `outputs/vi_sphere_example.pdf` |
+| Fig. 1 | Gaussian VI under even and elliptical symmetry | `outputs/vi_even_elliptical_example.pdf` |
+| Fig. 2 | Fixed-concentration von Mises–Fisher VI under rotational symmetry | `outputs/vi_sphere_example.pdf` |
