@@ -22,7 +22,7 @@ python even_elliptical_symmetry_vi.py
 python rotational_symmetry_vi.py
 ```
 
-The scripts automatically create an `outputs/` directory and save the figures as PDFs. Each script can be run independently.
+The scripts create an `outputs/` directory and save the figures as PDFs. Each script can be run independently.
 
 | Figure | Example | Output |
 | --- | --- | --- |
